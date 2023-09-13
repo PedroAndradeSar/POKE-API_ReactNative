@@ -5,7 +5,7 @@ import theme from "./src/global/styles/theme";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View>
       <ThemeProvider theme={theme}>
 
       </ThemeProvider>
